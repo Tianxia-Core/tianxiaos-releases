@@ -2,8 +2,6 @@
 name: Verify Ed25519 Release Signatures & CycloneDX SBOM
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
