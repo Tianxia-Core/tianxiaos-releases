@@ -1,0 +1,40 @@
+# ffp: FFP-CI-VERIFY-SIGNATURES content-pipeline yaml
+name: Verify Ed25519 Release Signatures & CycloneDX SBOM
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify-attestation:
+    name: OpenSSL Ed25519 Signature & SBOM Integrity Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Public Release Mirror
+        uses: actions/checkout@v4
+
+      - name: Verify Governance & Attestation Files Exist
+        run: |
+          for req in README.md flake.nix SECURITY.md GOVERNANCE.md CONTRIBUTING.md CODE_OF_CONDUCT.md SUPPORT.md CHANGELOG.md CITATION.cff LICENSE SBOM.cdx.json SHA256SUMS SHA256SUMS.sig RELEASE_SIGNING_KEY.pub.pem; do
+            test -f "$req" || (echo "Missing required file: $req" && exit 1)
+          done
+
+      - name: Verify Ed25519 Cryptographic Signature on SHA256SUMS
+        run: |
+          openssl pkeyutl -verify -pubin \
+            -inkey RELEASE_SIGNING_KEY.pub.pem \
+            -rawin -in SHA256SUMS -sigfile SHA256SUMS.sig
+
+      - name: Validate CycloneDX 1.5 SBOM Structure
+        run: |
+          python3 -c '
+          import json
+          sbom = json.load(open("SBOM.cdx.json", encoding="utf-8"))
+          assert sbom["bomFormat"] == "CycloneDX"
+          assert sbom["specVersion"] == "1.5"
+          assert len(sbom["components"]) >= 15
+          print(f"Verified CycloneDX 1.5 SBOM with {len(sbom["components"])} signed components.")
+          '

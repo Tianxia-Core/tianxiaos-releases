@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "TianxiaOS: Sovereign Polyglot seL4/NixOS Operating Substrate — Public Multi-Format Release Suite"
+message: "If you reference TianxiaOS or its cryptographic distribution suite in research or engineering documentation, please cite using this metadata."
+type: software
+authors:
+  - family-names: "Takem"
+    given-names: "Collins"
+    affiliation: "Rasa-X-Machina (Proposed RASA-X-MACHINA OÜ, Tallinn, Estonia)"
+version: "8.7.0"
+date-released: "2026-11-13"
+url: "https://rasaxmachina.com"
+repository-code: "https://github.com/Tianxia-Core/tianxiaos-releases"
+license: "Apache-2.0"
+keywords:
+  - "sel4"
+  - "nixos"
+  - "unikernel"
+  - "rust"
+  - "estonia"
+  - "gdpr"

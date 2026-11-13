@@ -1,0 +1,405 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-13T04:45:07Z",
+    "component": {
+      "type": "application",
+      "name": "TianxiaOS",
+      "version": "v8.7.0",
+      "publisher": "Rasa-X-Machina (Proposed O\u00dc \u2014 Tallinn, Estonia)"
+    },
+    "properties": [
+      {
+        "name": "tianxia:build_law_edition",
+        "value": "v4.4-DASAVIDYAYANA-GLOBAL42-GDPR++"
+      },
+      {
+        "name": "tianxia:signature_algorithm",
+        "value": "Ed25519 (RFC 8032)"
+      },
+      {
+        "name": "tianxia:artifact_count",
+        "value": "15"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "application",
+      "name": "TianxiaOS-8.7.0-aarch64.AppImage",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "53ee9a25805b61e4069e78ab5b1e026077863e4b8918cbf5c6eedd885cf719ac"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "appimage"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "TianxiaOS-8.7.0-aarch64.AppImage.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "145432"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "TianxiaOS-8.7.0-x86_64.AppImage",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "24070d04f2ad359babf789238f9f883e36ae95943773ac6a5e7d7d8a38b1e4dc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "appimage"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "TianxiaOS-8.7.0-x86_64.AppImage.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "127000"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "TianxiaOS-Sovereign-v8.7.0-android.apk",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "83d18d4e0e41011a63fbba4f6964a8c9de5a7a37b09bcb73956ad102e58a07e7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "android-apk"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "TianxiaOS-Sovereign-v8.7.0-android.apk.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "1139621"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxia-v8.7.0-android-aarch64",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "85052701ea2f711895692de79f84f9572c980d35e284de75d804fbbe48bda859"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "elf-binary"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxia-v8.7.0-android-aarch64.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "443192"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxia-v8.7.0-linux-aarch64",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "daa9afefb323cc6398e261ffc452e5be7db8b5af930828ee192379d95ee14d9f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "elf-binary"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxia-v8.7.0-linux-aarch64.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "65664"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxia-v8.7.0-linux-x86_64",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "62aea30e8ff2684f28ec1d9d5170283ffd18ab4c8512c5512a2a851cc500fa95"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "elf-binary"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxia-v8.7.0-linux-x86_64.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "56880"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxia-v8.7.0-windows-x86_64.exe",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8db6be5af95962f69cfa0d52750dccb293c255536807ce9c3ba3db8421078d65"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "windows-pe32+"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxia-v8.7.0-windows-x86_64.exe.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "119808"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos-8.7.0-1.aarch64.rpm",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "119c2b658678e4786b9fdf748b29a8a88aadd13bf966c85f659690eae8008f5d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "rpm"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos-8.7.0-1.aarch64.rpm.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "40271"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos-8.7.0-1.x86_64.rpm",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5d501e8c37a71a12c83b88ab90db7fc1e20b3d9bac749cf002a65d644f0b2f8d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "rpm"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos-8.7.0-1.x86_64.rpm.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "34433"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos-v8.7.0-android-aarch64.tar.gz",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4a78e51553ecb2aaa9e0f68d90f61b6febc6eff0b0229bae8097f87c51f87b83"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "tar.gz"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos-v8.7.0-android-aarch64.tar.gz.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "230780"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos-v8.7.0-linux-aarch64.tar.gz",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0fb858d17afac29fc12e5ea712d52d6e5bda1af6082c7e2f106bcf31e77063e3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "tar.gz"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos-v8.7.0-linux-aarch64.tar.gz.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "39598"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos-v8.7.0-linux-x86_64.tar.gz",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4b13db3807eb860011cb76c940c1c9d4fa2be096c3292c48b270c17dd38307bd"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "tar.gz"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos-v8.7.0-linux-x86_64.tar.gz.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "33709"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos-v8.7.0-windows-x86_64.tar.gz",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "32ee6f8c87ba9d04e5fd0675f41f3c6c48a5b267117b02db9698eecfafd24c88"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "tar.gz"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos-v8.7.0-windows-x86_64.tar.gz.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "64373"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos_8.7.0_amd64.deb",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c4a4f64869b8be10e2c0ee2253aa57d8d297e35c31aea5484f548574d04e2bd7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "deb"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos_8.7.0_amd64.deb.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "33574"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "tianxiaos_8.7.0_arm64.deb",
+      "version": "v8.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fd78a86f5d8fab473961e01466e8a30a8f7c062f69ac2d0c30c0cf99ac7f48f7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "tianxia:format",
+          "value": "deb"
+        },
+        {
+          "name": "tianxia:signature",
+          "value": "tianxiaos_8.7.0_arm64.deb.sig"
+        },
+        {
+          "name": "tianxia:size_bytes",
+          "value": "39418"
+        }
+      ]
+    }
+  ]
+}
