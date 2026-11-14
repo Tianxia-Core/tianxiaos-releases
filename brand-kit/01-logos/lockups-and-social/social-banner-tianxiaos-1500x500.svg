@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" role="img" aria-label="tianxiaOS Official Banner">
   <defs>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@500;700&display=swap');
+    <style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Space+Grotesk:wght@700&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
       .os { font-family: 'Clash Display', 'Geist', 'Space Grotesk', system-ui, sans-serif; font-weight: 700; font-size: 84px; letter-spacing: -1.7px; }
       .rxm { font-family: 'Syne', 'Space Grotesk', system-ui, sans-serif; font-weight: 800; font-size: 21px; letter-spacing: 0px; }
       .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }

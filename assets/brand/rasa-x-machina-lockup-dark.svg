@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 240" width="1320" height="240" role="img" aria-label="RASA-X-MACHINA · tianxiaOS">
   <defs>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@500;700&display=swap');
+    <style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Space+Grotesk:wght@700&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
       .rxm { font-family: 'Syne', 'Space Grotesk', system-ui, sans-serif; font-weight: 800; font-size: 56px; letter-spacing: 0px; }
       .os { font-family: 'Clash Display', 'Geist', 'Space Grotesk', system-ui, sans-serif; font-weight: 700; font-size: 62px; letter-spacing: -1.2px; }
       .sub { font-family: 'JetBrains Mono', ui-monospace, monospace; font-weight: 500; font-size: 16px; letter-spacing: 2.2px; }
