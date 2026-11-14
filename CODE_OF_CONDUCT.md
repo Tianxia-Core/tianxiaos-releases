@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We as members, contributors, and maintainers pledge to make participation in the **TianxiaOS** and **Rasa-X-Machina** engineering community a harassment-free, technically rigorous, and constructive experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+We as members, contributors, and maintainers pledge to make participation in the **tianxiaOS** and **RASA-X-MACHINA** engineering community a harassment-free, technically rigorous, and constructive experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
 ## Our Standards
 
@@ -19,7 +19,7 @@ Unacceptable behaviors include:
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to project leadership at `coltak@rasaxmachina.com`. All complaints will be reviewed promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported privately to project leadership via [https://rasaxmachina.com/collins#encrypted-dispatch](https://rasaxmachina.com/collins#encrypted-dispatch). All complaints will be reviewed promptly and fairly.
 
 ## Attribution
 

@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the **TianxiaOS Public Multi-Format Release Suite** follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
+All notable changes to the **tianxiaOS Public Multi-Format Release Suite** follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
 ## [8.7.0] - 2026-11-13 — *Universal Multi-Format Sovereign Distribution Edition*
 

@@ -1,20 +1,27 @@
-# TianxiaOS v8.7.0 — Sovereign Operating Substrate (Public Release & Verification Suite)
+<p align="center">
+  <img src="./brand-kit/01-logos/lockups-and-social/dual-lockup-rxm-x-tianxiaos.svg" alt="RASA-X-MACHINA · tianxiaOS" width="760"/>
+</p>
+
+# tianxiaOS v8.7.0 — Sovereign Operating Substrate (Public Release & Verification Suite)
 
 [![Verify Release Signatures](https://github.com/Tianxia-Core/tianxiaos-releases/actions/workflows/verify-release-signatures.yml/badge.svg)](https://github.com/Tianxia-Core/tianxiaos-releases/actions/workflows/verify-release-signatures.yml)
 [![Latest Release](https://img.shields.io/badge/Release-v8.7.0_Signed_(Ed25519_%2B_SBOM)-00f59b)](https://github.com/Tianxia-Core/tianxiaos-releases/releases/tag/v8.7.0)
+[![Press & Brand Kit](https://img.shields.io/badge/Press_%26_Brand_Kit-RASA--X--MACHINA_%C2%B7_tianxiaOS-a855f7)](https://rasaxmachina.com/press)
 [![Formats](https://img.shields.io/badge/Packages-.deb_%C2%B7_.rpm_%C2%B7_AppImage_%C2%B7_Nix_%C2%B7_Tar_%C2%B7_.exe_%C2%B7_.apk-22d3ee)](https://github.com/Tianxia-Core/tianxiaos-releases/releases/tag/v8.7.0)
 [![Privacy Standard](https://img.shields.io/badge/Privacy-GDPR%2B%2B_v2030.4_(&lt;50ms_PQ_Cryptoshred)-7c5cff)](https://trust.rasaxmachina.com)
 
-> **Rasa-X-Machina** (*Dealum Application `#179423` under Estonian Startup Committee evaluation pursuant to § 100¹ of the Estonian Aliens Act · Proposed entity upon approval: `RASA-X-MACHINA OÜ`, Tallinn, Estonia*) · Chief Systems Architect: **Collins Takem** (`coltak@rasaxmachina.com`)
-> **Portal (28 Sovereign Web Apps):** [https://rasaxmachina.com](https://rasaxmachina.com) · **Estonia Evaluation Companion:** [rasaxmachina.com/estonia](https://rasaxmachina.com/estonia) · **Cockpit:** [rasaxmachina.com/cockpit](https://rasaxmachina.com/cockpit) · **Trust & RFC 9116:** [trust.rasaxmachina.com](https://trust.rasaxmachina.com)
+> **RASA-X-MACHINA** (*Dealum Application `#179423` under Estonian Startup Committee evaluation pursuant to § 100¹ of the Estonian Aliens Act · Proposed entity upon approval: `RASA-X-MACHINA OÜ`, Tallinn, Estonia*) · Founder & Chief Systems Architect: **Collins Takem** ([rasaxmachina.com/collins](https://rasaxmachina.com/collins) · [Encrypted Dispatch](https://rasaxmachina.com/collins#encrypted-dispatch) · [Secure WhatsApp Relay](https://rasaxmachina.com/whatsapp))
+> **Portal (29 Sovereign Web Apps):** [https://rasaxmachina.com](https://rasaxmachina.com) · **Official Press, Media & Brand Kit:** [rasaxmachina.com/press](https://rasaxmachina.com/press) ([`./brand-kit/`](./brand-kit/README.md)) · **Estonia Evaluation Companion:** [rasaxmachina.com/estonia](https://rasaxmachina.com/estonia) · **Cockpit:** [rasaxmachina.com/cockpit](https://rasaxmachina.com/cockpit) · **Trust & RFC 9116:** [trust.rasaxmachina.com](https://trust.rasaxmachina.com)
 
-This repository is the **public cryptographic distribution, CycloneDX 1.5 SBOM, and universal package mirror** for **TianxiaOS** (`Tianxia-Core/TianxiaOS` core repository remains private to protect proprietary hardware, microkernel, and security IP while providing 100% public binary transparency and offline cryptographic verification).
+This repository is the **public cryptographic distribution, CycloneDX 1.5 SBOM, canonical [`brand-kit/`](./brand-kit/README.md), and universal package mirror** for **`tianxiaOS`** (`Tianxia-Core/TianxiaOS` core repository remains private to protect proprietary hardware, microkernel, and security IP while providing 100% public binary transparency and offline cryptographic verification).
+
+**Frontline-to-Founder Trajectory:** Engineered over **3+ years** by **Collins Takem** following **10+ years on the high-pressure FinTech incident-triage and ledger-forensics front lines** at **Blockchain.com**, **CoinLedger**, and **SQUIRE**, grounded in formal mathematical rigor via an asynchronous half-time Dual Major in **Pure Mathematics & Computer Science at SUNY (`4.00 / 4.00` GPA)**.
 
 ---
 
 ## 1. Executive Architecture & Empirical Benchmark Summary
 
-| Architectural Dimension | Legacy Python Agent Stacks | Cloud MicroVM Sandboxes | Container Orchestration | **TianxiaOS v8.7.0 (Crownforge)** |
+| Architectural Dimension | Legacy Python Agent Stacks | Cloud MicroVM Sandboxes | Container Orchestration | **tianxiaOS v8.7.0 (Crownforge)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Isolation Boundary** | Shared-kernel Python process | KVM + Firecracker VMM | Linux namespaces + cgroups | **seL4 Capability Isolation + Nanos Unikernels + `virtwl` ACL Gate** |
 | **Cold-Start Latency** | `850ms – 3,200ms` | `125ms – 300ms` | `400ms – 1,500ms` | **`< 15.0ms` CoW Unikernel / `< 1.4ms` Layer-Shell HUD** |
@@ -134,7 +141,8 @@ sha256sum -c --ignore-missing SHA256SUMS
 
 ## 5. Governance & Security Disclosures
 
-- **Security & RFC 9116 Vulnerability Disclosure**: [`SECURITY.md`](SECURITY.md) (`coltak@rasaxmachina.com`)
+- **Security & RFC 9116 Vulnerability Disclosure**: [`SECURITY.md`](SECURITY.md) ([Encrypted Security Dispatch](https://rasaxmachina.com/collins#encrypted-dispatch))
+- **Official Press, Media & Canonical Brand Kit**: [https://rasaxmachina.com/press](https://rasaxmachina.com/press) · [`./brand-kit/`](./brand-kit/README.md)
 - **Governance & Build Law Charter**: [`GOVERNANCE.md`](GOVERNANCE.md)
 - **Contribution Standards**: [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - **Code of Conduct**: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)

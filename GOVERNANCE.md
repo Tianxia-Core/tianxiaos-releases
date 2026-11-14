@@ -1,8 +1,7 @@
-# Governance & Public Release Integrity Charter
+# Governance Charter — RASA-X-MACHINA · tianxiaOS Public Release Mirror
 
-## 1. Stewardship
-**TianxiaOS** and the **Rasa-X-Machina** engineering portfolio are architected and maintained by **Collins Takem** (`@collinstaken525-cloud`, `coltak@rasaxmachina.com`). *`RASA-X-MACHINA OÜ` is the proposed Estonian entity to be incorporated in Tallinn upon approval by the Estonian Startup Committee under § 100¹ of the Estonian Aliens Act (Dealum Application `#179423` currently under evaluation).*
+**`tianxiaOS`** and the **RASA-X-MACHINA** engineering portfolio are architected and maintained by **Collins Takem** (`@collinstaken525-cloud` · [rasaxmachina.com/collins](https://rasaxmachina.com/collins)). *`RASA-X-MACHINA OÜ` is the proposed Estonian entity to be incorporated in Tallinn upon approval by the Estonian Startup Committee under § 100¹ of the Estonian Aliens Act (Dealum Application `#179423` currently under evaluation).*
 
-## 2. Public Binary Transparency vs. Core IP Protection
 - **`Tianxia-Core/TianxiaOS`** (Private Core): Houses proprietary microkernel integration, hardware telemetry, and sovereign infrastructure modules.
-- **`Tianxia-Core/tianxiaos-releases`** (Public Distribution Mirror): Publishes 100% reproducible, cryptographically signed universal packages (`.deb`, `.rpm`, `.AppImage`, `flake.nix`, `.tar.gz`, `.exe`, `.apk`), CycloneDX 1.5 `SBOM.cdx.json`, and continuous GitHub Actions signature verification.
+- **`Tianxia-Core/tianxiaos-releases`** (Public Distribution & Brand Mirror): Publishes 7-format Ed25519-signed release binaries, CycloneDX 1.5 SBOMs, and the canonical [`brand-kit/`](./brand-kit/README.md).
+- **Press & Media Portal**: [https://rasaxmachina.com/press](https://rasaxmachina.com/press)
