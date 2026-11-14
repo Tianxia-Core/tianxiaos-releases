@@ -2,7 +2,7 @@
   <img src="./brand-kit/01-logos/lockups-and-social/dual-lockup-rxm-x-tianxiaos.svg" alt="RASA-X-MACHINA · tianxiaOS" width="760"/>
 </p>
 
-# tianxiaOS v8.7.0 — Sovereign Operating Substrate (Public Release & Verification Suite)
+# tianxiaOS Releases
 
 [![Verify Release Signatures](https://github.com/Tianxia-Core/tianxiaos-releases/actions/workflows/verify-release-signatures.yml/badge.svg)](https://github.com/Tianxia-Core/tianxiaos-releases/actions/workflows/verify-release-signatures.yml)
 [![Latest Release](https://img.shields.io/badge/Release-v8.7.0_Signed_(Ed25519_%2B_SBOM)-00f59b)](https://github.com/Tianxia-Core/tianxiaos-releases/releases/tag/v8.7.0)
