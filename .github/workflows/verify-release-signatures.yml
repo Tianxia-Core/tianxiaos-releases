@@ -2,14 +2,18 @@
 name: Verify Ed25519 Release Signatures & CycloneDX SBOM
 
 on:
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
+  pull_request:
+    branches: ["main"]
+
+
+permissions:
+  contents: read
 
 jobs:
   verify-attestation:
     name: OpenSSL Ed25519 Signature & SBOM Integrity Check
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Public Release Mirror
         uses: actions/checkout@v4

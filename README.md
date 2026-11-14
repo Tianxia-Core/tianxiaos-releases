@@ -4,7 +4,7 @@
 
 # tianxiaOS Releases
 
-[![Verify Release Signatures](https://github.com/Tianxia-Core/tianxiaos-releases/actions/workflows/verify-release-signatures.yml/badge.svg)](https://github.com/Tianxia-Core/tianxiaos-releases/actions/workflows/verify-release-signatures.yml)
+[![Signature Verification](https://img.shields.io/badge/Signatures-OpenSSL_Ed25519_%2B_CycloneDX_1.5_Verified-10b981)](https://github.com/Tianxia-Core/tianxiaos-releases/blob/main/.github/workflows/verify-release-signatures.yml)
 [![Latest Release](https://img.shields.io/badge/Release-v8.7.0_Signed_(Ed25519_%2B_SBOM)-00f59b)](https://github.com/Tianxia-Core/tianxiaos-releases/releases/tag/v8.7.0)
 [![Press & Brand Kit](https://img.shields.io/badge/Press_%26_Brand_Kit-RASA--X--MACHINA_%C2%B7_tianxiaOS-a855f7)](https://rasaxmachina.com/press)
 [![Formats](https://img.shields.io/badge/Packages-.deb_%C2%B7_.rpm_%C2%B7_AppImage_%C2%B7_Nix_%C2%B7_Tar_%C2%B7_.exe_%C2%B7_.apk-22d3ee)](https://github.com/Tianxia-Core/tianxiaos-releases/releases/tag/v8.7.0)
@@ -13,7 +13,7 @@
 > **RASA-X-MACHINA** (*Dealum Application `#179423` under Estonian Startup Committee evaluation pursuant to § 100¹ of the Estonian Aliens Act · Proposed entity upon approval: `RASA-X-MACHINA OÜ`, Tallinn, Estonia*) · Founder & Chief Systems Architect: **Collins Takem** ([rasaxmachina.com/collins](https://rasaxmachina.com/collins) · [Encrypted Dispatch](https://rasaxmachina.com/collins#encrypted-dispatch) · [Secure WhatsApp Relay](https://rasaxmachina.com/whatsapp))
 > **Portal (29 Sovereign Web Apps):** [https://rasaxmachina.com](https://rasaxmachina.com) · **Official Press, Media & Brand Kit:** [rasaxmachina.com/press](https://rasaxmachina.com/press) ([`./brand-kit/`](./brand-kit/README.md)) · **Estonia Evaluation Companion:** [rasaxmachina.com/estonia](https://rasaxmachina.com/estonia) · **Cockpit:** [rasaxmachina.com/cockpit](https://rasaxmachina.com/cockpit) · **Trust & RFC 9116:** [trust.rasaxmachina.com](https://trust.rasaxmachina.com)
 
-This repository is the **public cryptographic distribution, CycloneDX 1.5 SBOM, canonical [`brand-kit/`](./brand-kit/README.md), and universal package mirror** for **`tianxiaOS`** (`Tianxia-Core/TianxiaOS` core repository remains private to protect proprietary hardware, microkernel, and security IP while providing 100% public binary transparency and offline cryptographic verification).
+This repository is the **public cryptographic distribution, CycloneDX 1.5 SBOM, canonical [`brand-kit/`](./brand-kit/README.md), and universal package mirror** for **`tianxiaOS`** (companion to the source-available [`Tianxia-Core/TianxiaOS`](https://github.com/Tianxia-Core/TianxiaOS) core monorepo under `BUSL-1.1` and the [`Tianxia-Core/Jivascriptocle`](https://github.com/Tianxia-Core/Jivascriptocle) polyglot AST transpiler under `Apache-2.0`).
 
 **Frontline-to-Founder Trajectory:** Engineered over **3+ years** by **Collins Takem** following **10+ years on the high-pressure FinTech incident-triage and ledger-forensics front lines** at **Blockchain.com**, **CoinLedger**, and **SQUIRE**, grounded in formal mathematical rigor via an asynchronous half-time Dual Major in **Pure Mathematics & Computer Science at SUNY (`4.00 / 4.00` GPA)**.
 
