@@ -10,15 +10,37 @@
 [![Formats](https://img.shields.io/badge/Packages-.deb_%C2%B7_.rpm_%C2%B7_AppImage_%C2%B7_Nix_%C2%B7_Tar_%C2%B7_.exe_%C2%B7_.apk-22d3ee)](https://github.com/Tianxia-Core/tianxiaos-releases/releases/tag/v8.7.0)
 [![Privacy Standard](https://img.shields.io/badge/Privacy-GDPR%2B%2B_v2030.4_(&lt;50ms_PQ_Cryptoshred)-7c5cff)](https://trust.rasaxmachina.com)
 
-> **RASA-X-MACHINA** (*Dealum Application `#179423` under Estonian Startup Committee evaluation pursuant to § 100¹ of the Estonian Aliens Act · Proposed entity upon approval: `RASA-X-MACHINA OÜ`, Tallinn, Estonia*) · Founder & Chief Systems Architect: **Collins Takem** ([rasaxmachina.com/collins](https://rasaxmachina.com/collins) · [Encrypted Dispatch](https://rasaxmachina.com/collins#encrypted-dispatch) · [Secure WhatsApp Relay](https://rasaxmachina.com/whatsapp))
+> **RASA-X-MACHINA** (*Dealum Application `#179423` under Estonian Startup Committee evaluation pursuant to Estonian Aliens Act `VMS § 62⁴(2) & § 192` · Proposed entity upon approval: `RASA-X-MACHINA OÜ`, Tallinn, Estonia*) · Founder & Chief Systems Architect: **Collins Takem** ([rasaxmachina.com/collins](https://rasaxmachina.com/collins) · [Encrypted Dispatch](https://rasaxmachina.com/collins#encrypted-dispatch) · [Secure WhatsApp Relay](https://rasaxmachina.com/whatsapp))
 > **Portal (29 Sovereign Web Apps):** [https://rasaxmachina.com](https://rasaxmachina.com) · **Official Press, Media & Brand Kit:** [rasaxmachina.com/press](https://rasaxmachina.com/press) ([`./brand-kit/`](./brand-kit/README.md)) · **Estonia Evaluation Companion:** [rasaxmachina.com/estonia](https://rasaxmachina.com/estonia) · **Cockpit:** [rasaxmachina.com/cockpit](https://rasaxmachina.com/cockpit) · **Trust & RFC 9116:** [trust.rasaxmachina.com](https://trust.rasaxmachina.com)
 
 This repository is the **public cryptographic distribution, CycloneDX 1.5 SBOM, canonical [`brand-kit/`](./brand-kit/README.md), and universal package mirror** for **`tianxiaOS`** (companion to the source-available [`Tianxia-Core/TianxiaOS`](https://github.com/Tianxia-Core/TianxiaOS) core monorepo under `BUSL-1.1` and the [`Tianxia-Core/Jivascriptocle`](https://github.com/Tianxia-Core/Jivascriptocle) polyglot AST transpiler under `Apache-2.0`).
 
 **Frontline-to-Founder Trajectory:** Engineered over **3+ years** by **Collins Takem** following **10+ years on the high-pressure FinTech incident-triage and ledger-forensics front lines** at **Blockchain.com**, **CoinLedger**, and **SQUIRE**, grounded in formal mathematical rigor via an asynchronous half-time Dual Major in **Pure Mathematics & Computer Science at SUNY (`4.00 / 4.00` GPA)**.
 
+<!-- BUILD_LAW_SHOWCASE_START -->
+
 ---
 
+## 🌍 In Plain English — What `tianxiaos-releases` Is & Why It Matters (Layman's Guide)
+
+- **The Everyday Problem:** Installing serious systems software usually means wrestling with broken dependencies, compilers, or unverified downloads you have to trust blindly.
+- **How It Works (Without the Jargon):** `tianxiaos-releases` publishes ready-to-run, zero-dependency executables for Debian/Ubuntu (`.deb`), Red Hat/Fedora (`.rpm`), universal Linux (`.AppImage` & `.tar.gz`), NixOS (`flake.nix`), Windows (`.exe`), and Android (`.apk`), each accompanied by cryptographic `Ed25519` signatures and a complete Software Bill of Materials (`SBOM.cdx.json`).
+- **Why It Is Different:** Every package is built reproducibly under **[Build Law](https://github.com/Tianxia-Core/Build-Law)** and continuously audited every 6 hours for cryptographic checksum parity.
+- **How It Benefits You:** Evaluators, security teams, and developers can install and cryptographically verify the `tianxiaOS` 9-app suite in under 30 seconds on almost any computer or phone.
+- **How to Install & Use It in 60 Seconds:** Download the package matching your OS from **[Latest Releases](https://github.com/Tianxia-Core/tianxiaos-releases/releases/latest)** or run `nix run github:Tianxia-Core/tianxiaos-releases`.
+
+---
+
+## 🏛️ Governed by [`Build Law`](https://github.com/Tianxia-Core/Build-Law) — Engineering Philosophy & Stakeholder Pathways
+
+This repository is a live production showcase of **[`Build Law`](https://github.com/Tianxia-Core/Build-Law)**—the open-source (`MIT`) **4-Pillar, 14-Gate Constitutional Engineering & `5.0×–8.8×` Token-Efficiency Standard** created by **[Collins Takem](https://rasaxmachina.com/collins)** (**RASA-X-MACHINA**):
+- **Developers & AI Builders:** Drop **[`Build Law`](https://github.com/Tianxia-Core/Build-Law)** into Claude Code, Cursor, OpenCode, VS Code (`.vsix`), GitHub Copilot, Windsurf, Cline, Aider, or any chat LLM in 60 seconds.
+- **CTOs & B2B Engineering Leaders:** Need similar `Rust`/`Go`/`Nix`/Security/FinOps rigor applied to your infrastructure? Scope a fixed-price **72-Hour `VRTTI` Architecture Sprint** at **[vrtti.rasaxmachina.com](https://vrtti.rasaxmachina.com)**.
+- **Investors, Researchers, Press & Executive Hiring Committees:** Inspect our cryptographic release proofs across **[`@Tianxia-Core`](https://github.com/Tianxia-Core)**, press assets at **[rasaxmachina.com/press](https://rasaxmachina.com/press)**, and founder dossier at **[rasaxmachina.com/collins](https://rasaxmachina.com/collins)**.
+
+<!-- BUILD_LAW_SHOWCASE_END -->
+
+---
 ## 1. Executive Architecture & Empirical Benchmark Summary
 
 | Architectural Dimension | Legacy Python Agent Stacks | Cloud MicroVM Sandboxes | Container Orchestration | **tianxiaOS v8.7.0 (Crownforge)** |
